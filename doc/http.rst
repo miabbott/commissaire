@@ -98,7 +98,7 @@ the handler must be a valid jsonrpc message as well!
 
 Class Handler
 `````````````
-A Class Handler is not much different than a Function Handlers. Instead of
+A Class Handler is not much different than a Function Handler. Instead of
 defining a single function, a class is declared with methods that take three
 parameters: ``self``, ``message``, and ``bus``. If the method should not be
 considered a handler it must start with an underscore.
